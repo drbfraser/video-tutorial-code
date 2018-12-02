@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">"Internationalisation Démo"</string>
+    <string name="action_settings">"Réglages"</string>
+    <string name="decide_your_message">"Décidez de votre message!"</string>
+    <string name="your_message_here">"Votre message ici!"</string>
+    <string name="hello">"Allo ! "</string>
+    <string name="good_bye">"Au revoir !"</string>
+    <string name="hello_world">"Bonjour!"</string>
+    <string name="goodbye_world">"Au revoir, tout le monde!"</string>
+</resources>

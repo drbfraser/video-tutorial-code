@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Internationalization Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="decide_your_message">Decide your message!</string>
+    <string name="your_message_here">Your message here!</string>
+    <string name="hello">Hello!</string>
+    <string name="good_bye">Good Bye!</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="goodbye_world">Goodbye World!</string>
+</resources>

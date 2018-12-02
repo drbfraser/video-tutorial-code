@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:maxHeight="80dp"
+        android:maxWidth="80dp"
+        android:src="@drawable/bug" />
+
+    <TextView
+        android:id="@+id/item_txtCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_txtYear"
+        android:layout_alignParentRight="true"
+        android:text="Condition shown here"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/item_txtYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_icon"
+        android:layout_alignLeft="@+id/item_txtMake"
+        android:layout_marginBottom="16dp"
+        android:text="2000" />
+
+    <TextView
+        android:id="@+id/item_txtMake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/item_txtCondition"
+        android:layout_toRightOf="@+id/item_icon"
+        android:text="Make Shown Here"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
